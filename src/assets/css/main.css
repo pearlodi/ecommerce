@@ -85,3 +85,79 @@ button {
         padding: 16px 7px 16px 30px;
     }
 }
+
+.css-2j9r22 {
+    background-color: white !important;
+
+    width: 592px;
+    border-radius: 10px;
+    border: none !important;
+}
+
+.css-sox5kk-MuiBackdrop-root {
+    backdrop-filter: blur(70px) !important;
+    border: 1px solid #FFFFFF60 !important;
+    background: linear-gradient(111deg, rgba(133, 133, 133, 0.849).21%, rgba(196, 196, 196, .02) 100%) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+    backdrop-filter: blur(3px) !important;
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+    backdrop-filter: blur(70px) !important;
+    border: 1px solid #FFFFFF60 !important;
+    background: linear-gradient(111deg, rgba(133, 133, 133, 0.849).21%, rgba(196, 196, 196, .02) 100%) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+    backdrop-filter: blur(3px) !important;
+}
+
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    padding: 0px !important;
+    color: black !important;
+    font-size: 12px !important;
+}
+
+/* Range.css */
+.Price-range input[type="range"] {
+    -webkit-appearance: none;
+    width: 200px !important;
+    height: 0.5px;
+    border-radius: 5px;
+    background: black !important;
+    outline: none;
+    padding: 0;
+}
+
+.Price-range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Style the range track using pseudo-elements */
+.Price-range input[type="range"]::before,
+.Price-range input[type="range"]::after {
+    content: "";
+    display: block;
+    height: 10px;
+    background: black;
+}
+
+.css-177gid-MuiTableCell-root {
+    border: 1px solid rgba(224, 224, 224, 1) !important;
+    text-align: left !important;
+
+}
+
+.css-1ex1afd-MuiTableCell-root {
+    border: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.css-15wwp11-MuiTableHead-root {
+    border: 1px solid rgba(224, 224, 224, 1);
+}

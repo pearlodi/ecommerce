@@ -1,0 +1,171 @@
+.prods {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+}
+
+.product-view {
+    display: flex;
+    padding: 40px;
+    margin-top: 80px;
+}
+
+.prods {
+    margin-left: 32px;
+}
+
+.category-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-img {
+    max-width: 300px;
+    height: 350px;
+}
+
+.product--img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-btn-cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fliters {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.range {
+    margin-top: 2px;
+}
+
+.hr {
+    width: 100%;
+    height: 0.5px;
+    background-color: gray;
+    margin-top: 32px;
+}
+
+.price-range {
+    margin-top: 32px;
+}
+
+.modal-img {
+    width: 450px;
+    height: 450px;
+}
+
+.modal--img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+}
+
+.modals {
+    padding: 40px;
+
+}
+
+.categ {
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.modal-details {
+    margin-left: 32px;
+    padding-right: 60px;
+}
+
+.modal-category {
+    text-transform: uppercase;
+}
+
+.modal-description {
+    width: 80%;
+}
+
+.modal-btns {
+    margin-top: 32px;
+}
+
+.modal-add-cart {
+    width: 40%;
+    background-color: black;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.modal-btn-cart {
+    width: 40%;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.modal-review {
+    padding: 0 40px;
+}
+
+@media (max-width: 967px) {
+
+    .prods {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        margin-left: 0;
+        margin-top: 32px;
+
+    }
+
+    .product-view {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .prods {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        margin-left: 0;
+        margin-top: 32px;
+
+    }
+
+    .product-view {
+        flex-direction: column;
+    }
+
+}

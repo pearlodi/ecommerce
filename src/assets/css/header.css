@@ -1,3 +1,79 @@
-.head {
-    color: red;
+.header-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 50px;
+    background-color: black;
+
+}
+
+.header-logo {
+    width: 100px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.header-input {
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.header--input {
+    width: 100%;
+    padding: 12px;
+}
+
+.shopping-cart {
+    position: absolute;
+}
+
+.cart {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-count {
+    padding: 2px 6px;
+    background-color: white;
+    color: bro;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: -10px;
+    margin-left: 12px;
+}
+
+.header-list {
+    background-color: black;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.524);
+    padding: 40px 60px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.header-list-ul {
+    display: flex;
+}
+
+.header-list-li {
+    margin-left: 30px;
+    color: black;
+}
+
+.header-list-li:first-child {
+    margin-left: 0;
+}
+
+.remove-item {
+    color: rgb(58, 6, 6);
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
