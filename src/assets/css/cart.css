@@ -1,0 +1,354 @@
+.cart-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cart--image {
+    width: 200px;
+
+}
+
+.cart--items {
+    display: flex;
+    margin-top: 100px;
+    width: 800px;
+    max-width: 100%;
+
+}
+
+.cart--items:first-child {
+    margin-top: 50px;
+}
+
+.cart-item-details {
+    margin-left: 32px;
+}
+
+.cart--title {
+    margin-top: 10px;
+}
+
+.cart--description {
+    margin-top: 10px;
+}
+
+.cart--price {
+    margin-top: 10px;
+}
+
+.cart-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.cart-page {
+    margin-top: 80px;
+}
+
+.cart-btn {
+    background-color: black;
+    border: 10px solid black;
+    font-weight: 800;
+    border-radius: 1px;
+    padding: 8px;
+    border: none;
+    color: white;
+}
+
+.summary-title {
+    /* background-color: black; */
+    color: black;
+    padding: 5px 5px;
+    width: 400px;
+    text-align: center;
+}
+
+.checkout {
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.check-out {
+    font-weight: 900;
+}
+
+.checkout-btn {
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    position: sticky;
+    top: 0;
+    margin-right: 40px;
+    width: 600px;
+}
+
+.checkout-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chec {
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    cursor: pointer;
+}
+
+.cart-title {}
+
+.closeModal {
+    display: none;
+}
+
+.OpenModal {
+    position: absolute;
+    display: flex;
+    z-index: 50;
+    background-color: black;
+    /* width: 100vw; */
+}
+
+.open {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: flex-end;
+    color: white;
+    z-index: 50;
+    right: 0;
+    animation: mymove 1s;
+
+}
+
+.form-modal {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+
+
+}
+
+.css-134pvwy {
+
+    background-color: #1B1F22 !important;
+}
+
+.form-label {
+    color: #000;
+    margin-top: 32px;
+}
+
+.form-input {
+    padding: 14px;
+    width: 100%;
+    border: 1px solid rgb(226, 226, 226);
+    background: white;
+}
+
+.form-message {
+    padding: 14px;
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid rgba(214, 251, 252, 0.08);
+    background: white;
+}
+
+.closeModal {
+    align-self: left;
+    text-align: left;
+    background-color: black;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.form-submit {
+    width: 250px;
+    margin-top: 32px;
+    border: none;
+    padding: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    justify-content: right !important;
+}
+
+.cart-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 32px;
+}
+
+.cart-text :active {
+    font-size: 40px;
+    color: black;
+}
+
+.cart-text {
+    font-size: 40px;
+    color: black;
+
+}
+
+.enter-text {
+    text-align: left;
+    color: black;
+    margin-top: 50px;
+}
+
+.error-message {
+    font-size: 12px;
+    color: red;
+}
+
+.state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-message {
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.checkout-form {
+    display: flex;
+    padding: 0 80px;
+}
+
+.checkout-table {
+    margin-left: 64px;
+    margin-top: 64px;
+}
+
+.checkout-table-items {
+    display: flex;
+}
+
+.checkout-table-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: 900 !important;
+}
+
+.table-body {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.cart-table {
+    width: 900px;
+}
+
+.css-quj9j6-MuiTable-root {
+
+    margin-left: 30px;
+}
+
+/* @keyframes mymove {
+    from {
+        width: 100vh;
+    }
+
+    to {
+        width: 0;
+    }
+} */
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    width: 80% !important;
+    margin-top: 32px;
+}
+
+.recieved {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 32px;
+}
+
+.table-datas {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.download {
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+.recieved-order {
+    display: flex;
+    justify-content: center;
+
+}
+
+.order-period {
+    margin-left: 80px;
+    margin-top: 32px;
+    font-size: 16px;
+}
+
+.order-period:first-child {
+    margin-left: 0;
+}
+
+.strong-order {
+    color: gray;
+}
