@@ -3,8 +3,63 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: url(https://milanofashiontour.com/wp-content/uploads/2017/02/rehost2F20162F92F132F32823fc4-7e9e-4588-ad33-5fdc4b7e8d10.jpg);
+    background: url('../../assets/img/background.jpg');
+    background-repeat: no-repeat;
 }
+
+.keyframes {
+    background-color: black;
+    height: 100vh;
+    position: absolute;
+    width: 0;
+    font-weight: 900;
+    animation: keyframesText 2s forwards;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 50;
+    display: flex;
+    line-height: 1px;
+
+}
+
+.keyframes-text {
+    animation: text 2s forwards;
+    font-size: 100px;
+    color: transparent;
+    /* Text color */
+    -webkit-text-stroke: 1px white;
+
+}
+
+@keyframes keyframesText {
+    from {
+        width: 100%;
+        display: flex;
+    }
+
+    to {
+        width: 0;
+        display: none;
+
+    }
+}
+
+@keyframes text {
+    from {
+        display: flex;
+    }
+
+    to {
+        display: none;
+
+    }
+}
+
 
 .page-content {
     display: flex;
@@ -21,7 +76,7 @@
     margin-top: 32px;
     font-size: 60px;
     line-height: 30px;
-    color: white;
+
 }
 
 .content-text {
@@ -35,6 +90,7 @@
     background-color: black;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .marquee-img {
@@ -47,6 +103,48 @@
     height: 100%;
 }
 
+.index-2-imgs {
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+    padding: 40px;
+
+}
+
+.index-2--imgs {
+    margin-left: 84px;
+}
+
+.index-2--imgs:first-child {
+    margin-left: 0;
+}
+
+.index--2--img {
+    width: 100%;
+}
+
+.index-2-titles {
+    margin-top: 4px;
+    font-size: 30px;
+}
+
+.index-2-texts {
+    margin-top: 4px;
+}
+
+.index-2-btn {
+    margin-top: 24px;
+    padding: 18px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.index-2-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.9s ease;
+}
 
 .index-ba {
     display: flex;
@@ -67,15 +165,94 @@
     width: 450px;
 }
 
+.index-b2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1275px;
+    max-width: 100%;
+    padding: 40px;
+}
+
+.index-b2-row {
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.index-b2-row:first-child {
+    max-lines: 0;
+}
+
+.explore {
+    padding: 40px;
+}
+
+/* .index-b2-img {
+    width: 500px;
+    height: 550px;
+} */
+
+.index-b2--img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .index-b2-imgs {
+    width: 500px;
+    height: 550px;
+} */
+
+.index-b2--imgs {
+    width: 100%;
+    height: 100%;
+}
+
+.index-c2-img {
+    width: 400px;
+    height: 500px;
+}
+
+
+.index-b-text {
+    height: 445px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 64px;
+    /* Adjust the font size */
+    color: white;
+    /* Text color */
+    -webkit-text-stroke: 0.01px black;
+    padding: 20px;
+    /* Width and color of the text outline */
+}
+
+.index-c2 {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    gap: 20px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.index-d2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin: auto;
+}
+
 .slider-image {
-    width: 300px;
+    width: 100%;
     height: 400px;
-    background-color: gray;
+    padding: 8px;
 
 }
 
 .slider {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,33 +261,23 @@
     margin-top: 80px;
 }
 
-.slick-slider {
-    width: 96% !important;
-    margin: auto !important;
-}
 
-.overlay-container {
-    margin-top: 48px;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    /* Set the height as needed */
-    background-image: url(https://cdn.shopify.com/s/files/1/0070/7032/files/start-a-clothing-line-retail.jpg?v=1635875038);
-    /* Replace 'your-background-image.jpg' with your image file */
+
+
+.overlay-containera {
+    background-image: url(https://media.istockphoto.com/id/927335276/photo/lady-in-large-black-hat.jpg?s=2048x2048&w=is&k=20&c=rutRHmuOxrpa4zfQIvCl5lLD3PzSmDvBeZckDiyX3Uk=);
+    background-attachment: fixed;
     background-size: cover;
-    background-position: center;
-
+    height: 100vh;
+    margin-top: 64px;
+    /* Adjust as needed */
+    /* Other styles for the div */
 }
 
-.overlay-container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.788);
-    /* Adjust the transparency by modifying the alpha value */
+
+
+.background-div {
+    position: relative;
 }
 
 .arrivals {
@@ -133,7 +300,91 @@
     border-radius: 20px;
 }
 
-@media (max-width: 920px) {
+.discount {
+    font-size: 50px;
+    color: white;
+    width: 1257px;
+    z-index: 100;
+}
+
+.index-e {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.index-e-title {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: 45px;
+
+}
+
+.index-e-info {
+    background-color: black;
+    border: 1px solid black;
+    height: 100%;
+    width: 730px;
+    padding: 40px;
+
+
+}
+
+.index-e-btn {
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+
+.index-e-text {
+    color: white;
+}
+
+.index-f-section {
+    display: flex;
+    margin: 40px 40px;
+    justify-content: center;
+}
+
+.index-f {
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-f-title {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.index-f:first-child {
+    margin-left: 0;
+}
+
+.slick-slider {
+    width: 90% !important;
+    margin: auto !important;
+}
+
+.slick-prev {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 40%;
+}
+
+.slick-next {
+    background: black !important;
+    color: white !important;
+    border-radius: 40%;
+}
+
+@media (max-width: 1050px) {
     .arrivals {
         flex-direction: column;
         margin-top: 80px;
@@ -143,6 +394,30 @@
         width: 80%;
     }
 
+    .background-changer {
+        height: 70vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background: url('../../assets/img/mobile-bck.jpg');
+        background-size: cover;
+    }
+
+    .page-content {
+        height: 50vh;
+    }
+
+    .overlay-containera {
+        height: 50vh;
+    }
+
+    .keyframes-text {
+        display: none;
+    }
+
+    .keyframes {
+        background-color: rgba(0, 0, 0, 0.439);
+    }
 
 }
 
@@ -153,20 +428,82 @@
 
     .page-content {
         padding: 20px;
+        height: 70vh;
+        text-align: center;
     }
 
-    .background-changer {
-        height: 100vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        background: url(https://milanofashiontour.com/wp-content/uploads/2017/02/rehost2F20162F92F132F32823fc4-7e9e-4588-ad33-5fdc4b7e8d10.jpg);
+
+    .index-b2 {
+        padding: 20px;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .overlay-containera {
+        height: 60vh;
+    }
+
+    .index-2-imgs {
+        margin-top: 0;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .index-2--imgs {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+
+    .index-2-titles {
+        font-size: 20px;
+    }
+
+    .index-2-texts {
+        font-size: 16px;
+    }
+
+    .keyframes {
+        background-color: rgba(0, 0, 0, 0.439);
+        width: 100vw;
+        height: 70vh;
+    }
+
+    .keyframes-text {
+        display: none;
+    }
+
+    .explore {
+        padding: 0 20px;
+    }
+
+    .index-text {
+        font-size: 24px;
+    }
+
+    .marquee-img {
+        width: 120px;
+    }
+
+    .content-text {
+        font-size: 24px;
     }
 
     .index-ba {
         flex-direction: column-reverse;
 
+    }
+
+    .index-b2-row:last-child {
+        display: none;
+    }
+
+    .started-btn {
+        width: 200px;
+        padding: 24px;
+        margin-top: 32px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
     }
 
     .index--ba {
@@ -179,15 +516,25 @@
     }
 
     .slider-image {
-        width: 80px;
-        height: 120px;
-        background-color: gray;
-        gap: 20px;
+        width: 100%;
+        height: 100%;
+        gap: 22px;
+        height: 380px;
 
     }
 
     .overlay-container::after {
 
+        width: 100%;
+    }
+
+    .index-e {
+        flex-direction: column;
+        margin-top: 20px;
+        height: 500px;
+    }
+
+    .index-e-info {
         width: 100%;
     }
 
@@ -197,7 +544,7 @@
     }
 
     .slick-slider {
-        width: 80% !important;
+        width: 90% !important;
         margin: auto !important;
     }
 
@@ -207,5 +554,21 @@
 
     .index-ba-text {
         width: 100%;
+    }
+
+    .index-f-section {
+        flex-direction: column;
+    }
+
+    .index-f {
+        margin-left: 0;
+    }
+
+    .index-b2-row {
+        margin-left: 4px;
+    }
+
+    .index-e-title {
+        font-size: 27px;
     }
 }

@@ -1,33 +1,7 @@
-// import React from 'react';
-// import { useDispatch } from 'react-redux';
-// import { setPriceFilter } from '../redux/CartSlice';
 
-// const Range = () => {
-//   const dispatch = useDispatch();
-
-//   const handlePriceChange = (event) => {
-//     const selectedPrice = parseFloat(event.target.value);
-//     dispatch(setPriceFilter(selectedPrice));
-//   };
-
-//   return (
-//     <div className="Price-range">
-//       <input
-//         type="range"
-//         min="20"
-//         max="60"
-//         step="10"
-//         defaultValue="20" // Initial value
-//         onChange={handlePriceChange}
-//       />
-//     </div>
-//   );
-// };
-
-// export default Range;
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { setPriceFilter } from '../redux/CartSlice';
+import { setPriceFilter } from '../../redux/CartSlice';
 
 const Range = () => {
   const dispatch = useDispatch();
