@@ -6,30 +6,11 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-// import Cart from '../views/Cart';
 import { useSelector } from 'react-redux';
 
 export default function Product() {
 
     const cart = useSelector((state) => state.cart.cart);
-//   const [products, setProducts] = useState([]);
-
-//   useEffect(() => {
-//     const fetchProducts = async () => {
-//       try {
-//         const response = await fetch('https://fakestoreapi.com/products');
-//         if (!response.ok) {
-//           throw new Error('Failed to fetch products');
-//         }
-//         const data = await response.json();
-//         console.log(data);
-//         setProducts(data);
-//       } catch (error) {
-//         console.error('Error fetching products', error);
-//       }
-//     };
-//     fetchProducts();
-//   }, []);
 
   return (
     <TableContainer component={Paper}>
